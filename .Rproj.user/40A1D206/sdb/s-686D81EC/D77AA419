@@ -1,0 +1,17 @@
+{
+    "contents" : "require(\"ggplot2\")\nrequire(\"lubridate\")",
+    "created" : 1442964662674.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3307601482",
+    "id" : "D77AA419",
+    "lastKnownWriteTime" : 1442964678,
+    "path" : "C:/Users/counterlogic/OneDrive/Documents/Classes/Fall 2015/DataVisualization/DV_RProject2/00 Doc/.RProfile",
+    "project_path" : "00 Doc/.RProfile",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
