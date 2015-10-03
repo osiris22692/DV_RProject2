@@ -7,3 +7,5 @@ names(df)
 summary(df)
 
 #Data Wrangling part
+dw1 <- df %>% select(TIME_IN_HOSPITAL, NUM_MEDICATIONS, READMITTED) %>% filter(READMITTED == "<30") %>% View()
+df %>% select(RACE, AGE, NUM_MEDICATIONS) %>% filter(RACE == c("AfricanAmerican", "Asian", "Caucasian", "Hispanic", "Other")) %>% group_by(AGE, RACE) %>% summarize(meanMeds = mean(NUM_MEDICATIONS)) %>% View()
